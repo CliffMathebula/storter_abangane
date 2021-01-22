@@ -35,8 +35,7 @@
 
 header.masthead {
     position: relative;
-    background: url("Images/image30.jpg") no-repeat center center;
-    background-size: cover;
+    background: url("Images/image30.jpg");
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
