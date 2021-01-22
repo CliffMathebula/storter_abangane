@@ -1,5 +1,40 @@
+
+.home-right-zand-right-over-ons {
+    height: 13px;
+    width: 347px;
+    color: #014171;
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 40px;
+    line-height: 31px;
+  }
+
 .bg-pulldown {
     height: 127px;
     width: 1398px;
     background-color: #FFFFFF;
+  }
+
+  .logo-stoter {
+    height: 69px;
+    width: 245px;
+    box-shadow: -3px 6px 16px NaNpx rgba(0,0,0,0.5);
+  }
+
+  .bg-menu {
+    height: 70px;
+    width: 1401px;
+    background-color: #014171;
+  }
+
+  .assortiment-projecten-over-ons {
+    height: 12px;
+    width: 964px;
+    color: #FFFFFF;
+    font-family: "Work Sans";
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 40px;
+    line-height: 39px;
   }
