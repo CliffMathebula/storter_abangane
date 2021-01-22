@@ -12,7 +12,6 @@
 
 .bg-pulldown {
     height: 127px;
-    width: 1398px;
     background-color: #FFFFFF;
   }
 
@@ -27,11 +26,29 @@
     width: 408px;
     color: #009EE0;
     font-family: "Work Sans";
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: right;
+    padding: 14px 16px;
+  }
+
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
   }
   
+  .topnav-right {
+    float: right;
+  }
+
+  .link-text{color: #0e5894;}
+
   .bg-menu {
     height: 70px;
-    width: 1401px;
     background-color: #014171;
   }
 
