@@ -4600,11 +4600,8 @@ input[type=submit].btn-block {
 }
 
 .navbar-collapse {
-    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
-    -ms-flex-positive: 1;
     flex-grow: 1;
-    -ms-flex-align: center;
     align-items: center
 }
 
@@ -10531,8 +10528,8 @@ a.text-dark:hover {
 
 @media print {
     *,
-    ::after,
-    ::before {
+     ::after,
+     ::before {
         text-shadow: none!important;
         box-shadow: none!important
     }
