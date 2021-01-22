@@ -33,15 +33,6 @@
     float: right;
 }
 
-.link-text {
-    color: #0e5894;
-}
-
-.bg-menu {
-    height: 70px;
-    background-color: #014171;
-}
-
 header.masthead {
     position: relative;
     background: url("Images/image30.jpg") no-repeat center center;

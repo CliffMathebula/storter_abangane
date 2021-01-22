@@ -15,44 +15,68 @@
 <body class="">
 
     <!-- start of first navbar section-->
-    <nav class="bg-pulldown">
-        <div class="container mt-4">
-            <img src="Images/logo.png" class="logo-stoter" />
-            <div class="topnav-right">
-                <a href="#" class="header_toplink text-uppercase">Verken Bij</a>
-                <a href="#" class="header_toplink text-uppercase">038 33 129 73</a>
-                <button type="button" class="btn btn-light text-uppercase text-primary dropdown-toggle  " data-toggle="dropdown">
-        <strong class="link-text">Zand</strong>  
-        </button>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
-                    <a class="dropdown-item" href="#">Link 3</a>
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <img src="Images/logo.png" class="logo-stoter" />
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item mt-2">
+                    <a href="#" class="header_toplink text-uppercase">Verken Bij</a>
+                </li>
+                <li class="nav-item mt-2">
+                    <a href="#" class="header_toplink text-uppercase">038 33 129 73</a>
+                </li>
+                <li class="nav-item dropdown bg-light">
+                    <a class="nav-link dropdown-toggle  text-uppercase" style="color:#0e5894; font-weight: 800;" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Zand
+                    </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">link 1</a>
+                        <a class="dropdown-item" href="#">link 2</a>
+                        <a class="dropdown-item" href="#">link 3</a>
+                    </div>
+                </li>
+            </ul>
         </div>
     </nav>
-    <!-- End of first navbar section-->
+    <!-- End of second navbar section-->
 
-    <!-- start of navbar section -->
-    <nav class="bg-menu">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link text-white text-uppercase font-weight-bold mt-3" href="#">Assortiment</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white text-uppercase -weight-bold mt-3" href="#">Projecten</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white text-uppercase text-warning font-weight-bold mt-3" href="#">Over Ons</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white text-uppercase font-weight-bold mt-3" href="#">Veelgestelde vragen</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white text-uppercase font-weight-bold mt-3" href="#">Contact</a>
-            </li>
-        </ul>
+    <!-- start of second navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark " style="background-color: #014171;">
+        <!-- Brand -->
+        <!-- <a href="#" class="navbar-brand" href="#">&nbsp;</a> -->
+
+        <!-- Toggler/collapsible Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white text-uppercase font-weight-bold mt-3" href="#">Assortiment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white text-uppercase font-weight-bold mt-3" href="#">Projecten</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white text-uppercase text-warning font-weight-bold mt-3" href="#">Over Ons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white text-uppercase font-weight-bold mt-3" href="#">Veelgestelde vragen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white text-uppercase font-weight-bold mt-3" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <!-- End of navbar second section -->
 
